@@ -1,0 +1,93 @@
+=== AUTOMATED ROWING ANALYSIS REPORT ===
+
+Session Overview:
+  Total Strokes: 19
+  Average Score: 73.2/100
+  Session Grade: Fair
+
+Most Common Issues:
+  Short stroke length: 17 strokes (89.5%)
+  Rushed stroke: 8 strokes (42.1%)
+  Excessive handle height variation: 4 strokes (21.1%)
+  Very slow stroke: 4 strokes (21.1%)
+  Excessive torso movement: 1 strokes (5.3%)
+
+==================================================
+
+Individual Stroke Analysis:
+
+Stroke 1: 85/100
+  Issues: Excessive handle height variation
+  Recommendations: Keep arms straight longer during the drive
+
+Stroke 2: 70/100
+  Issues: Short stroke length, Rushed stroke
+  Recommendations: Extend further forward at the catch; Slow down, focus on technique over speed
+
+Stroke 3: 80/100
+  Issues: Short stroke length
+  Recommendations: Extend further forward at the catch
+
+Stroke 4: 80/100
+  Issues: Short stroke length
+  Recommendations: Extend further forward at the catch
+
+Stroke 5: 70/100
+  Issues: Short stroke length, Rushed stroke
+  Recommendations: Extend further forward at the catch; Slow down, focus on technique over speed
+
+Stroke 6: 70/100
+  Issues: Short stroke length, Rushed stroke
+  Recommendations: Extend further forward at the catch; Slow down, focus on technique over speed
+
+Stroke 7: 50/100
+  Issues: Excessive handle height variation, Short stroke length, Excessive torso movement, Very slow stroke
+  Recommendations: Keep arms straight longer during the drive; Extend further forward at the catch; Control torso swing, avoid over-reaching; Maintain consistent stroke rate
+
+Stroke 8: 70/100
+  Issues: Short stroke length, Rushed stroke
+  Recommendations: Extend further forward at the catch; Slow down, focus on technique over speed
+
+Stroke 9: 80/100
+  Issues: Short stroke length
+  Recommendations: Extend further forward at the catch
+
+Stroke 10: 80/100
+  Issues: Short stroke length
+  Recommendations: Extend further forward at the catch
+
+Stroke 11: 70/100
+  Issues: Short stroke length, Rushed stroke
+  Recommendations: Extend further forward at the catch; Slow down, focus on technique over speed
+
+Stroke 12: 70/100
+  Issues: Short stroke length, Rushed stroke
+  Recommendations: Extend further forward at the catch; Slow down, focus on technique over speed
+
+Stroke 13: 80/100
+  Issues: Excessive handle height variation, Very slow stroke
+  Recommendations: Keep arms straight longer during the drive; Maintain consistent stroke rate
+
+Stroke 14: 70/100
+  Issues: Short stroke length, Rushed stroke
+  Recommendations: Extend further forward at the catch; Slow down, focus on technique over speed
+
+Stroke 15: 60/100
+  Issues: Excessive handle height variation, Short stroke length, Very slow stroke
+  Recommendations: Keep arms straight longer during the drive; Extend further forward at the catch; Maintain consistent stroke rate
+
+Stroke 16: 75/100
+  Issues: Short stroke length, Very slow stroke
+  Recommendations: Extend further forward at the catch; Maintain consistent stroke rate
+
+Stroke 17: 70/100
+  Issues: Short stroke length, Rushed stroke
+  Recommendations: Extend further forward at the catch; Slow down, focus on technique over speed
+
+Stroke 18: 80/100
+  Issues: Short stroke length
+  Recommendations: Extend further forward at the catch
+
+Stroke 19: 80/100
+  Issues: Short stroke length
+  Recommendations: Extend further forward at the catch

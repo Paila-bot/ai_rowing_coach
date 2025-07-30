@@ -1,0 +1,340 @@
+{
+  "strokes": [
+    {
+      "id": 1,
+      "start_frame": 17,
+      "end_frame": 72,
+      "duration": 55
+    },
+    {
+      "id": 2,
+      "start_frame": 72,
+      "end_frame": 78,
+      "duration": 6
+    },
+    {
+      "id": 3,
+      "start_frame": 78,
+      "end_frame": 132,
+      "duration": 54
+    },
+    {
+      "id": 4,
+      "start_frame": 132,
+      "end_frame": 187,
+      "duration": 55
+    },
+    {
+      "id": 5,
+      "start_frame": 187,
+      "end_frame": 202,
+      "duration": 15
+    },
+    {
+      "id": 6,
+      "start_frame": 202,
+      "end_frame": 217,
+      "duration": 15
+    },
+    {
+      "id": 7,
+      "start_frame": 217,
+      "end_frame": 399,
+      "duration": 182
+    },
+    {
+      "id": 8,
+      "start_frame": 399,
+      "end_frame": 417,
+      "duration": 18
+    },
+    {
+      "id": 9,
+      "start_frame": 417,
+      "end_frame": 438,
+      "duration": 21
+    },
+    {
+      "id": 10,
+      "start_frame": 438,
+      "end_frame": 476,
+      "duration": 38
+    },
+    {
+      "id": 11,
+      "start_frame": 476,
+      "end_frame": 482,
+      "duration": 6
+    },
+    {
+      "id": 12,
+      "start_frame": 482,
+      "end_frame": 497,
+      "duration": 15
+    },
+    {
+      "id": 13,
+      "start_frame": 497,
+      "end_frame": 657,
+      "duration": 160
+    },
+    {
+      "id": 14,
+      "start_frame": 657,
+      "end_frame": 672,
+      "duration": 15
+    },
+    {
+      "id": 15,
+      "start_frame": 672,
+      "end_frame": 757,
+      "duration": 85
+    },
+    {
+      "id": 16,
+      "start_frame": 757,
+      "end_frame": 825,
+      "duration": 68
+    },
+    {
+      "id": 17,
+      "start_frame": 825,
+      "end_frame": 842,
+      "duration": 17
+    },
+    {
+      "id": 18,
+      "start_frame": 842,
+      "end_frame": 862,
+      "duration": 20
+    },
+    {
+      "id": 19,
+      "start_frame": 862,
+      "end_frame": 887,
+      "duration": 25
+    }
+  ],
+  "feedback": [
+    {
+      "stroke_id": 1,
+      "score": 85,
+      "faults": [
+        "Excessive handle height variation"
+      ],
+      "recommendations": [
+        "Keep arms straight longer during the drive"
+      ]
+    },
+    {
+      "stroke_id": 2,
+      "score": 70,
+      "faults": [
+        "Short stroke length",
+        "Rushed stroke"
+      ],
+      "recommendations": [
+        "Extend further forward at the catch",
+        "Slow down, focus on technique over speed"
+      ]
+    },
+    {
+      "stroke_id": 3,
+      "score": 80,
+      "faults": [
+        "Short stroke length"
+      ],
+      "recommendations": [
+        "Extend further forward at the catch"
+      ]
+    },
+    {
+      "stroke_id": 4,
+      "score": 80,
+      "faults": [
+        "Short stroke length"
+      ],
+      "recommendations": [
+        "Extend further forward at the catch"
+      ]
+    },
+    {
+      "stroke_id": 5,
+      "score": 70,
+      "faults": [
+        "Short stroke length",
+        "Rushed stroke"
+      ],
+      "recommendations": [
+        "Extend further forward at the catch",
+        "Slow down, focus on technique over speed"
+      ]
+    },
+    {
+      "stroke_id": 6,
+      "score": 70,
+      "faults": [
+        "Short stroke length",
+        "Rushed stroke"
+      ],
+      "recommendations": [
+        "Extend further forward at the catch",
+        "Slow down, focus on technique over speed"
+      ]
+    },
+    {
+      "stroke_id": 7,
+      "score": 50,
+      "faults": [
+        "Excessive handle height variation",
+        "Short stroke length",
+        "Excessive torso movement",
+        "Very slow stroke"
+      ],
+      "recommendations": [
+        "Keep arms straight longer during the drive",
+        "Extend further forward at the catch",
+        "Control torso swing, avoid over-reaching",
+        "Maintain consistent stroke rate"
+      ]
+    },
+    {
+      "stroke_id": 8,
+      "score": 70,
+      "faults": [
+        "Short stroke length",
+        "Rushed stroke"
+      ],
+      "recommendations": [
+        "Extend further forward at the catch",
+        "Slow down, focus on technique over speed"
+      ]
+    },
+    {
+      "stroke_id": 9,
+      "score": 80,
+      "faults": [
+        "Short stroke length"
+      ],
+      "recommendations": [
+        "Extend further forward at the catch"
+      ]
+    },
+    {
+      "stroke_id": 10,
+      "score": 80,
+      "faults": [
+        "Short stroke length"
+      ],
+      "recommendations": [
+        "Extend further forward at the catch"
+      ]
+    },
+    {
+      "stroke_id": 11,
+      "score": 70,
+      "faults": [
+        "Short stroke length",
+        "Rushed stroke"
+      ],
+      "recommendations": [
+        "Extend further forward at the catch",
+        "Slow down, focus on technique over speed"
+      ]
+    },
+    {
+      "stroke_id": 12,
+      "score": 70,
+      "faults": [
+        "Short stroke length",
+        "Rushed stroke"
+      ],
+      "recommendations": [
+        "Extend further forward at the catch",
+        "Slow down, focus on technique over speed"
+      ]
+    },
+    {
+      "stroke_id": 13,
+      "score": 80,
+      "faults": [
+        "Excessive handle height variation",
+        "Very slow stroke"
+      ],
+      "recommendations": [
+        "Keep arms straight longer during the drive",
+        "Maintain consistent stroke rate"
+      ]
+    },
+    {
+      "stroke_id": 14,
+      "score": 70,
+      "faults": [
+        "Short stroke length",
+        "Rushed stroke"
+      ],
+      "recommendations": [
+        "Extend further forward at the catch",
+        "Slow down, focus on technique over speed"
+      ]
+    },
+    {
+      "stroke_id": 15,
+      "score": 60,
+      "faults": [
+        "Excessive handle height variation",
+        "Short stroke length",
+        "Very slow stroke"
+      ],
+      "recommendations": [
+        "Keep arms straight longer during the drive",
+        "Extend further forward at the catch",
+        "Maintain consistent stroke rate"
+      ]
+    },
+    {
+      "stroke_id": 16,
+      "score": 75,
+      "faults": [
+        "Short stroke length",
+        "Very slow stroke"
+      ],
+      "recommendations": [
+        "Extend further forward at the catch",
+        "Maintain consistent stroke rate"
+      ]
+    },
+    {
+      "stroke_id": 17,
+      "score": 70,
+      "faults": [
+        "Short stroke length",
+        "Rushed stroke"
+      ],
+      "recommendations": [
+        "Extend further forward at the catch",
+        "Slow down, focus on technique over speed"
+      ]
+    },
+    {
+      "stroke_id": 18,
+      "score": 80,
+      "faults": [
+        "Short stroke length"
+      ],
+      "recommendations": [
+        "Extend further forward at the catch"
+      ]
+    },
+    {
+      "stroke_id": 19,
+      "score": 80,
+      "faults": [
+        "Short stroke length"
+      ],
+      "recommendations": [
+        "Extend further forward at the catch"
+      ]
+    }
+  ]
+}
