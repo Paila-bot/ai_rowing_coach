@@ -1,0 +1,31 @@
+=== ROWING TECHNIQUE ANALYSIS REPORT ===
+
+Overall Technique Score: 0.0/100
+Total Strokes Analyzed: 1
+
+PHASE-BY-PHASE ANALYSIS:
+========================================
+
+CATCH PHASE:
+  Score: 0.0/100
+  Strokes analyzed: 1
+  Feedback: Catch needs significant improvement.
+
+DRIVE PHASE:
+  Score: 0.0/100
+  Strokes analyzed: 1
+  Feedback: Drive needs significant improvement.
+
+FINISH PHASE:
+  Score: 0.0/100
+  Strokes analyzed: 1
+  Feedback: Finish needs significant improvement.
+
+RECOVERY PHASE:
+  Score: 0.0/100
+  Strokes analyzed: 1
+  Feedback: Recovery needs significant improvement.
+
+RECOMMENDATIONS:
+========================================
+Significant technique improvements needed. Consider working with a coach.

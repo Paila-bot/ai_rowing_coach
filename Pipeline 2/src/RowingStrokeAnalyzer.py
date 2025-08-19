@@ -2,7 +2,7 @@ import numpy as np
 import csv
 import os
 import glob
-from typing import Dict, List, Tuple, Optional
+from typing import Dict, List, Optional
 import cv2
 
 
@@ -104,8 +104,8 @@ class RowingStrokeAnalyzer:
         """
         try:
             # Import required modules
-            from FrameExtractor import FrameExtractor
-            from BackgroundSubtractor import BackgroundSubtractor
+            from scripts.FrameExtractor import FrameExtractor
+            from scripts.BackgroundSubtractor import BackgroundSubtractor
             from StrokeDetector import StrokeDetector
             from JointTracker import JointTracker
 
