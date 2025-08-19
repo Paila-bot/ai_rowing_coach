@@ -9,11 +9,8 @@ class GaussianMixtureBackgroundSubtractor:
 
         frame_height, frame_width = initial_frame.shape
 
-        # Means of Gaussians for each pixel (height x width x num_gaussians)
         self.means = np.zeros((frame_height, frame_width, num_gaussians), dtype=np.float32)
-        # Variances of Gaussians for each pixel
         self.variances = np.ones((frame_height, frame_width, num_gaussians), dtype=np.float32) * 15.0
-        # Weights of each Gaussian component per pixel
         self.weights = np.ones((frame_height, frame_width, num_gaussians), dtype=np.float32) / num_gaussians
 
         # Initialize the first Gaussian mean to initial frame pixel values, others random noise
@@ -21,7 +18,7 @@ class GaussianMixtureBackgroundSubtractor:
             if gaussian_index == 0:
                 self.means[:, :, gaussian_index] = initial_frame
             else:
-                self.means[:, :, gaussian_index] = np.random.uniform(0, 255, size=(frame_height, frame_width))
+                self.means[:, :, gaussian_index] = np.random.uniform(0, 255, size=(frame_height, frame_width)) #random initialisation for possible variations
 
     def apply(self, current_frame):
         """
@@ -32,7 +29,7 @@ class GaussianMixtureBackgroundSubtractor:
         current_frame = current_frame.astype(np.float32)
 
         # Calculate absolute difference between current pixel and Gaussian means for all components
-        difference = np.abs(current_frame[:, :, None] - self.means)  # shape: (height, width, num_gaussians)
+        difference = np.abs(current_frame[:, :, None] - self.means)
 
         # Check which Gaussians match pixel within 2.5 standard deviations
         matches = difference <= 2.5 * np.sqrt(self.variances)

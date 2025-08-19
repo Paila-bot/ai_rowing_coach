@@ -80,10 +80,9 @@ class ClassicalPoseEstimation:
 
     def background_subtraction(self, frame):
         if self.background_subtractor is None:
-            gray_frame = self.grayscale(frame)
             self.background_subtractor = GaussianMixtureBackgroundSubtractor(num_gaussians=5,
             learning_rate=0.01,
-            background_threshold=0.7,initial_frame=gray_frame)
+            background_threshold=0.7,initial_frame=frame)
         return self.background_subtractor.apply(frame)
 
     def morphological_operations(self, binary_mask, operation='open', kernel_size=5):
@@ -117,6 +116,7 @@ class ClassicalPoseEstimation:
 
         return output
 
+    #
     def connected_components_labeling(self, binary_mask):
         height, width = binary_mask.shape
         labels = np.zeros((height, width), dtype=np.int32)
