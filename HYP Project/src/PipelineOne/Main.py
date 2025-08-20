@@ -94,7 +94,7 @@
 #     PoseExtractor(video_file, frame_skip=3, csv_path=r"C:\Users\brigh\Documents\Honours\HYP\HYP Project\src\PipelineOne\csv files\keypoints.csv")
 
 from BiomechanicalAnalyser import BiomechanicalAnalyser  # Adjust import as needed
-from PostFeedbackSessionGenerator import PostSessionFeedbackGenerator
+from ActionQualityReporter import PostSessionFeedbackGenerator
 
 def score_technique(analyzer):
     # Simple scoring example based on average angles completeness and stroke rate
