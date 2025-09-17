@@ -317,3 +317,46 @@ class ClassicalPoseEstimation:
                 flow_vectors.append((0, 0))
 
         return flow_vectors
+
+    def predict_keypoints(self, frame):
+        """Full pipeline: predict anatomical keypoints for each detected person in a frame."""
+        # 1. Grayscale
+        gray = self.grayscale(frame)
+
+        # 2. Background subtraction
+        fg_mask = self.background_subtraction(gray)
+
+        # 3. Clean mask
+        fg_mask = self.morphological_operations(fg_mask, operation='open', kernel_size=5)
+
+        # 4. Connected components
+        labels, num_labels = self.connected_components_labeling(fg_mask)
+
+        all_joints = {}
+
+        for blob_id in range(1, num_labels + 1):
+            ys, xs = np.where(labels == blob_id)
+            if len(ys) == 0:
+                continue
+
+            # Bounding box
+            y_min, y_max = ys.min(), ys.max()
+            x_min, x_max = xs.min(), xs.max()
+            bbox = (y_min, y_max, x_min, x_max)
+
+            # Extract region
+            region = gray[y_min:y_max+1, x_min:x_max+1]
+
+            # Keypoints
+            keypoints = self.shi_tomasi_corner_detection(region)
+
+            # Shift keypoints back to image coords
+            keypoints = [(y + y_min, x + x_min) for y, x in keypoints]
+
+            # Extract anatomical joints
+            joints = self.extract_anatomical_joints((y_min, y_max), keypoints, labels, blob_id)
+
+            all_joints.update(joints)
+
+            print(all_joints)
+        return all_joints

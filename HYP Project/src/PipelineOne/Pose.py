@@ -92,6 +92,7 @@ class PoseVisualizer:
             # connected components
             num_labels = np.max(fg_mask_clean) if np.any(fg_mask_clean) else 0
 
+            self.pose.predict_keypoints(frame)
             # plot
             self.plot_results(frame_with_skeleton, gray, blur, fg_mask_clean,
                               keypoints_img, optical_flow_img, idx, num_labels, keypoints)
@@ -128,6 +129,7 @@ class PoseVisualizer:
         plt.show()
 
 if __name__ == "__main__":
-    video_file = r"C:\Users\paida\Documents\Rowing Dataset\row_1.mp4"
-    pose = PoseVisualizer(video_file, frame_skip=1)
+    video_file = r"C:\Users\brigh\Documents\Honours\HYP\Project Implementation\ai_rowing_coach\HYP Project\data\Rowing Dataset\row_9.mp4"
+    pose = PoseVisualizer(video_file, frame_skip=3)
     pose.pose_pipeline()
+
